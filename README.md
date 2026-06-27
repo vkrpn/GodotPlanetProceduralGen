@@ -1,3 +1,18 @@
-do i really have to do this its ten pm ive been coding for 3.5 hours im so tired ill just leave it at this i just want to finish my first stardance project i am so sleep deprived ill do this tommorow
+A planet is generated from these values:
 
-probably...
+Noise frequency: the intensity of the Perlin noise that is used to generate terrain
+
+Amplitude: the intensity of the effect that the Perlin noise has on elevation
+
+Radius: planet radius
+
+Radial segments: the sphere's radial segments. This is essentially resolution. The higher the value, the higher the detail the terrain has.
+
+Sphere rings: the sphere's rings. This value is similar to radial segments. I recommend settings this value to half of the radial segments value.
+
+Colors 1-4: colors of terrain. Color 1 is lowest elevation terrain color, and Color 4 is highest elevation terrain color (RGBA separated by commas)
+
+Cloud color: the color of the clouds (RGBA separated by commas)
+
+Once you input those values, the code creates a sphere with the radial segments and rings you specified. Then, the brand new sphere is converted into an array mesh with editable vertexes.
+A for loop modifies the height of each vertex based on amplitude, noise, and radius (radius + noise * amplitude). Then, based on the noise value, each vertex is assigned one of four colors determined by elevation. This is repeated a second time, however this time there are 2 colors: the cloud color, and transparent, to generate clouds. After all of that, your planet is generated.
