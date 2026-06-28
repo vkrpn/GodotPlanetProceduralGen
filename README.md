@@ -6,9 +6,9 @@ Amplitude: the intensity of the effect that the Perlin noise has on elevation
 
 Radius: planet radius
 
-Radial segments: the sphere's radial segments. This is essentially resolution. The higher the value, the higher the detail the terrain has.
+Radial segments: the sphere's radial segments. This is essentially resolution. The higher the value, the higher the detail the terrain has. I do not recommend settings a value above 2048.
 
-Sphere rings: the sphere's rings. This value is similar to radial segments. I recommend settings this value to half of the radial segments value.
+Sphere rings: the sphere's rings. This value is similar to radial segments. I recommend settings this value to half of the radial segments value. I do not recommend settings a value above 1024.
 
 Colors 1-4: colors of terrain. Color 1 is lowest elevation terrain color, and Color 4 is highest elevation terrain color (RGBA separated by commas)
 
