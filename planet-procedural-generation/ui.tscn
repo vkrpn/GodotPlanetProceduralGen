@@ -1,0 +1,297 @@
+[gd_scene format=3 uid="uid://h44dtgqr7w1k"]
+
+[ext_resource type="Script" uid="uid://d0mkfu6mi35op" path="res://ui.gd" id="1_fyqef"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_s5ern"]
+font_size = 28
+
+[node name="Control" type="Control" unique_id=1734048593]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1152.0
+offset_bottom = -648.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fyqef")
+
+[node name="Label12" type="Label" parent="." unique_id=1829763874]
+layout_mode = 0
+offset_left = 453.0
+offset_top = 50.0
+offset_right = 715.0
+offset_bottom = 131.0
+text = "0.0, 0.0, 0.0, 0.0"
+label_settings = SubResource("LabelSettings_s5ern")
+horizontal_alignment = 1
+
+[node name="Label11" type="Label" parent="." unique_id=1772589359]
+layout_mode = 0
+offset_left = 453.0
+offset_top = 20.0
+offset_right = 703.0
+offset_bottom = 70.0
+text = "Color Picker (RGBA)
+"
+label_settings = SubResource("LabelSettings_s5ern")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Alpha" type="HSlider" parent="." unique_id=1173260282]
+layout_mode = 0
+offset_left = 665.0
+offset_top = 80.0
+offset_right = 735.0
+offset_bottom = 115.0
+max_value = 1.0
+step = 0.05
+value = 1.0
+
+[node name="Blue" type="HSlider" parent="." unique_id=768111038]
+layout_mode = 0
+offset_left = 585.0
+offset_top = 80.0
+offset_right = 655.0
+offset_bottom = 115.0
+max_value = 1.0
+step = 0.05
+
+[node name="Green" type="HSlider" parent="." unique_id=1111526598]
+layout_mode = 0
+offset_left = 505.0
+offset_top = 80.0
+offset_right = 575.0
+offset_bottom = 115.0
+max_value = 1.0
+step = 0.05
+
+[node name="Label6" type="Label" parent="." unique_id=732426587]
+layout_mode = 0
+offset_left = 877.0
+offset_top = 380.0
+offset_right = 1127.0
+offset_bottom = 430.0
+text = "Color 4"
+label_settings = SubResource("LabelSettings_s5ern")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label7" type="Label" parent="." unique_id=1120548376]
+layout_mode = 0
+offset_left = 877.0
+offset_top = 500.0
+offset_right = 1127.0
+offset_bottom = 550.0
+text = "Cloud Color"
+label_settings = SubResource("LabelSettings_s5ern")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CloudColor" type="LineEdit" parent="." unique_id=1203354594]
+layout_mode = 0
+offset_left = 877.0
+offset_top = 560.0
+offset_right = 1127.0
+offset_bottom = 610.0
+placeholder_text = "e.g. 1.0, 1.0, 1.0, 0.55 RGBA"
+
+[node name="Color1" type="LineEdit" parent="." unique_id=1381803306]
+layout_mode = 0
+offset_left = 877.0
+offset_top = 80.0
+offset_right = 1127.0
+offset_bottom = 130.0
+placeholder_text = "e.g. 0.0, 0.20, 1.0, 1.0 RGBA"
+
+[node name="Label8" type="Label" parent="." unique_id=473135820]
+layout_mode = 0
+offset_left = 877.0
+offset_top = 20.0
+offset_right = 1127.0
+offset_bottom = 70.0
+text = "Color 1"
+label_settings = SubResource("LabelSettings_s5ern")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Color2" type="LineEdit" parent="." unique_id=1342435273]
+layout_mode = 0
+offset_left = 877.0
+offset_top = 200.0
+offset_right = 1127.0
+offset_bottom = 250.0
+placeholder_text = "e.g. 0.0, 0.60, 0.0, 1.0 RGBA"
+
+[node name="Color3" type="LineEdit" parent="." unique_id=716502780]
+layout_mode = 0
+offset_left = 877.0
+offset_top = 320.0
+offset_right = 1127.0
+offset_bottom = 370.0
+placeholder_text = "e.g. 0.30, 0.30, 0.30, 1.0 RGBA"
+
+[node name="Label9" type="Label" parent="." unique_id=1001959247]
+layout_mode = 0
+offset_left = 877.0
+offset_top = 260.0
+offset_right = 1127.0
+offset_bottom = 310.0
+text = "Color 3"
+label_settings = SubResource("LabelSettings_s5ern")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label10" type="Label" parent="." unique_id=1081654911]
+layout_mode = 0
+offset_left = 877.0
+offset_top = 140.0
+offset_right = 1127.0
+offset_bottom = 190.0
+text = "Color 2"
+label_settings = SubResource("LabelSettings_s5ern")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Color4" type="LineEdit" parent="." unique_id=281210554]
+layout_mode = 0
+offset_left = 877.0
+offset_top = 440.0
+offset_right = 1127.0
+offset_bottom = 490.0
+placeholder_text = "e.g. 1.0, 1.0, 1.0, 1.0 RGBA"
+
+[node name="Label5" type="Label" parent="." unique_id=2064917623]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 380.0
+offset_right = 280.0
+offset_bottom = 430.0
+text = "Radial Segments"
+label_settings = SubResource("LabelSettings_s5ern")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="." unique_id=810786878]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 500.0
+offset_right = 280.0
+offset_bottom = 550.0
+text = "Sphere Rings"
+label_settings = SubResource("LabelSettings_s5ern")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SphereRings" type="LineEdit" parent="." unique_id=1589004211]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 560.0
+offset_right = 280.0
+offset_bottom = 610.0
+placeholder_text = "safe limit: 1024"
+
+[node name="NoiseFrequency" type="LineEdit" parent="." unique_id=369471388]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 80.0
+offset_right = 280.0
+offset_bottom = 130.0
+placeholder_text = "e.g. 5"
+
+[node name="Label" type="Label" parent="." unique_id=1674587702]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 20.0
+offset_right = 280.0
+offset_bottom = 70.0
+text = "Noise Frequency"
+label_settings = SubResource("LabelSettings_s5ern")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Amplitude" type="LineEdit" parent="." unique_id=1550584498]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 200.0
+offset_right = 280.0
+offset_bottom = 250.0
+placeholder_text = "e.g. 0.2"
+
+[node name="Radius" type="LineEdit" parent="." unique_id=1533621171]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 320.0
+offset_right = 280.0
+offset_bottom = 370.0
+placeholder_text = "e.g. 1"
+
+[node name="Label3" type="Label" parent="." unique_id=1456921293]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 260.0
+offset_right = 280.0
+offset_bottom = 310.0
+text = "Radius"
+label_settings = SubResource("LabelSettings_s5ern")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="." unique_id=1191836844]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 140.0
+offset_right = 280.0
+offset_bottom = 190.0
+text = "Amplitude"
+label_settings = SubResource("LabelSettings_s5ern")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RadialSegments" type="LineEdit" parent="." unique_id=1949875955]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 440.0
+offset_right = 280.0
+offset_bottom = 490.0
+placeholder_text = "safe limit: 2048"
+
+[node name="Button" type="Button" parent="." unique_id=34819136]
+layout_mode = 0
+offset_left = 455.0
+offset_top = 550.0
+offset_right = 705.0
+offset_bottom = 600.0
+text = "Generate"
+
+[node name="Button2" type="Button" parent="." unique_id=104316904]
+visible = false
+layout_mode = 0
+offset_left = 455.0
+offset_top = 231.0
+offset_right = 705.0
+offset_bottom = 352.0
+text = "It is recommended that you 
+lower your radial segments
+and sphere rings. A crash
+could occur. Press this button
+to proceed with generation."
+
+[node name="Red" type="HSlider" parent="." unique_id=1727168761]
+layout_mode = 0
+offset_left = 425.0
+offset_top = 80.0
+offset_right = 495.0
+offset_bottom = 115.0
+max_value = 1.0
+step = 0.05
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=928005835]
+layout_mode = 0
+offset_left = 425.0
+offset_top = 125.0
+offset_right = 735.0
+offset_bottom = 155.0
+
+[connection signal="button_up" from="Button" to="." method="_on_button_button_up"]
+[connection signal="button_up" from="Button2" to="." method="_on_button_2_button_up"]
